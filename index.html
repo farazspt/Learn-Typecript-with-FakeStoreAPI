@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fake Product</title>
+  <link rel="stylesheet" href="/src/css/normalize.css">
+  <link rel="stylesheet" href="/src/css/all.css">
+  <link rel="stylesheet" href="/src/css/my-style.css">
+  <script src="/src/main.ts" type="module" defer></script>
+</head>
+
+<body>
+  <nav>
+    <div class="center">
+      <a href="index.html" class="active">USERS</a>
+      <h1>
+        <strong>FAKE</strong> Products
+      </h1>
+      <a href="product-index.html">PRODUCTS</a>
+    </div>
+  </nav>
+  <main class="users-main">
+
+  </main>
+  <div class="modal">
+    <div class="dialog">
+      <header>
+        <h2 class="contact-name"></h2>
+        <button class="close-button" type="button">
+          <i class="fas fa-times"></i>
+        </button>
+      </header>
+      <table>
+        <tr>
+          <td>
+            <i class="fas fa-phone"></i> Phone
+          </td>
+          <td id="contact-phone"></td>
+        </tr>
+        <tr>
+          <td>
+            <i class="fas fa-envelope"></i> Email
+          </td>
+          <td id="contact-email"></td>
+        </tr>
+      </table>
+      <fieldset>
+        <legend>Address</legend>
+        <table>
+          <tr>
+            <td>City</td>
+            <td id="contact-city"></td>
+          </tr>
+          <tr>
+            <td>Street</td>
+            <td id="contact-street"></td>
+          </tr>
+          <tr>
+            <td>Zipcode</td>
+            <td id="contact-zipcode"></td>
+          </tr>
+          <tr>
+            <td>Geolocation</td>
+            <td id="contact-geolocation"></td>
+          </tr>
+        </table>
+      </fieldset>
+    </div>
+  </div>
+</body>
+
+</html>
